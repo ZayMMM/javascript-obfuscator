@@ -38,6 +38,9 @@ npm start
 ```
 This command will start the Express.js server and automatically restart it whenever changes are made to the code.
 
+## Reference Repository
+You can find additional resources and related projects in the [Reference Repository](https://github.com/javascript-obfuscator/javascript-obfuscator).
+
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests for any improvements or new features you'd like to see in the project.
 
