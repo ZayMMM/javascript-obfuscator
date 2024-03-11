@@ -15,15 +15,16 @@ To set up and run the project, follow these steps:
 
 3. Install dependencies:
 
-npm install
+
 ## Usage
+### npm install
 To start the application in development mode with automatic restart using `nodemon`, run:
 
-npm start
+### npm start
 This command will start the Express.js server and automatically restart it whenever changes are made to the code.
 To build the application for production, which includes obfuscating the JavaScript code in the `service` module, run:
 
-npm run build
+### npm run build
 This command will obfuscate the JavaScript code in the `service` module using the JavaScript Obfuscator library and copy assets to the `build` directory.
 To start the production-ready application, run:
 
