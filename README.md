@@ -1,5 +1,5 @@
 # javascript-obfuscator
-This project demonstrates how to use the JavaScript Obfuscator library to obfuscate JavaScript code in a Node.js application.
+This project demonstrates how to use the JavaScript Obfuscator library to obfuscate JavaScript code in Node.js/Express.js application.
 
 ## Overview
 JavaScript obfuscation is the process of converting readable JavaScript code into a less readable version to protect it from reverse engineering and unauthorized use. The JavaScript Obfuscator library provides tools and options to obfuscate JavaScript code effectively.
@@ -26,7 +26,7 @@ npm install
 
 
 ## Usage
-To start the application in development mode with automatic restart using `nodemon`, run:
+To build the production application, which includes obfuscating the JavaScript code in the `service` module, run:
 ```
 npm run build
 ```
@@ -37,7 +37,6 @@ To start the application in development mode with automatic restart using `nodem
 npm start
 ```
 This command will start the Express.js server and automatically restart it whenever changes are made to the code.
-To build the production application, which includes obfuscating the JavaScript code in the `service` module, run:
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests for any improvements or new features you'd like to see in the project.
