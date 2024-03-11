@@ -10,29 +10,40 @@ In this project, we have a simple Node.js application with an Express.js server 
 To set up and run the project, follow these steps:
 
 1. Clone the repository to your local machine:
+```
+git clone https://github.com/ZayMMM/javascript-obfuscator.git
+```
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
+```
+cd javascript-obfuscator
+```
 
-3. Install dependencies:
+5. Install dependencies:
+```
+npm install
+```
 
 
 ## Usage
-### npm install
 To start the application in development mode with automatic restart using `nodemon`, run:
+```
+npm run build
+```
+This command will obfuscate the JavaScript code in the `service` module using the JavaScript Obfuscator library.
 
-### npm start
+To start the application in development mode with automatic restart using `nodemon`, run:
+```
+npm start
+```
 This command will start the Express.js server and automatically restart it whenever changes are made to the code.
-To build the application for production, which includes obfuscating the JavaScript code in the `service` module, run:
-
-### npm run build
-This command will obfuscate the JavaScript code in the `service` module using the JavaScript Obfuscator library and copy assets to the `build` directory.
-To start the production-ready application, run:
+To build the production application, which includes obfuscating the JavaScript code in the `service` module, run:
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests for any improvements or new features you'd like to see in the project.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU License. See the [LICENSE](LICENSE) file for details.
 
 
 
